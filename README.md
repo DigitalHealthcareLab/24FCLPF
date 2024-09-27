@@ -1,6 +1,6 @@
 # Federated Class Incremental Learning: A Pseudo Feature Based Approach Without Exemplars
 
-This repository contains the PyTorch implementation for the paper:  
+This repository contains the PyTorch implementation for the 2024 ACCV paper:  
 **Federated Class Incremental Learning: A Pseudo Feature Based Approach Without Exemplars** <br>
 This paper was selected for **oral presentation**, placing it in the top 5.6% of submissions.  
 
@@ -49,3 +49,14 @@ Similarly, on the TinyImageNet dataset, FCLPF outperformed baseline methods, sho
 <img src="comparison of model performance.png" width="100%">
 </p>
 Figure 2: Comparison of model performance across different tasks and datasets. Our approach (blue line) consistently shows higher accuracy and less forgetting compared to MFCL, FedProx, and FedAvg across both CIFAR-100 and TinyImageNet datasets.
+
+## Citation
+If you have found our code or paper beneficial to your research, please consider citing it as:
+
+```bibtex
+@inproceedings{yoo2024federated,
+  title={Federated Class Incremental Learning: A Pseudo Feature Based Approach Without Exemplars},
+  author={Min Kyoon Yoo and Yu Rang Park},
+  booktitle = {Proceedings of the Asian Conference on Computer Vision ({ACCV})},
+  year={2024}
+}
